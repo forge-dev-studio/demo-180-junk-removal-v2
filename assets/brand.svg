@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">180 Junk Removal and Dumpster Rentals</title>
+  <desc id="desc">Yellow dumpster logo with white 180 Junk Removal text on a black background.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe34d"/>
+      <stop offset=".55" stop-color="#ffc400"/>
+      <stop offset="1" stop-color="#c99300"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="760" height="360" fill="#020202"/>
+  <g transform="translate(182 18)" filter="url(#glow)">
+    <path d="M26 130 2 58l52-20 16 46 278-76 220 74-34 94-50-18 16-52L346 52 94 118l-18 64z" fill="#101010" stroke="#383838" stroke-width="5"/>
+    <path d="M78 94 348 24l198 66-32 86-38-13 16-48L347 64 104 128l-19 55-36-12z" fill="none" stroke="#ffcf00" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M126 64 352 10l178 59-42 152H108z" fill="#080808" stroke="#111" stroke-width="10"/>
+    <path d="M130 76 354 27l154 52-33 124H116z" fill="url(#gold)" stroke="#060606" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M133 76h346M116 128h372M111 174h375M174 66v136M241 52v150M315 37v165M388 39v163M452 59v143" fill="none" stroke="#080808" stroke-width="12"/>
+    <path d="M110 202h360l-33 55H141z" fill="url(#gold)" stroke="#070707" stroke-width="9"/>
+    <path d="M172 205 134 257M252 205 215 257M332 205 294 257M413 205 375 257" stroke="#080808" stroke-width="15" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(31 244)">
+    <text x="0" y="57" fill="#f6f6f6" stroke="#000" stroke-width="9" paint-order="stroke" font-family="Impact, Arial Black, sans-serif" font-size="72" letter-spacing="2">180 JUNK REMOVAL</text>
+    <text x="115" y="102" fill="#ffca05" font-family="Brush Script MT, Segoe Script, cursive" font-size="46">&amp; Dumpster Rentals</text>
+    <text x="254" y="139" fill="#f7f7f7" font-family="Impact, Arial Black, sans-serif" font-size="36" letter-spacing="3">706-676-6170</text>
+  </g>
+</svg>

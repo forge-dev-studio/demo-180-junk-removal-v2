@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://forge-dev-studio.github.io/demo-180-junk-removal-v2/sitemap.xml
