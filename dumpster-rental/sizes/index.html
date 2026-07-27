@@ -31,6 +31,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Oswald:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../assets/styles.css">
 <script>(function(){var d=document.documentElement;d.className+=" js";try{if(!(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches))d.className+=" hero-anim";}catch(e){}})();</script>
+
+  <!-- ga4:begin managed by c:\Dev\tools\ga4 - do not hand-edit -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5EPPLE35C2"></script>
+  <script>
+  window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+  gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});
+gtag('js',new Date());
+gtag('config','G-5EPPLE35C2');
+window.ga4Consent=function(s){gtag('consent','update',s)};
+(function(){var d=document;function ev(n,p){try{gtag('event',n,p||{})}catch(e){}}
+d.addEventListener('click',function(e){var t=e.target;if(!t||!t.closest)return;
+var x=t.closest('[data-ga-event]');if(x)ev(x.getAttribute('data-ga-event'),{label:(x.getAttribute('data-ga-label')||x.textContent||'').trim().slice(0,100)});
+var a=t.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';
+if(/^tel:/i.test(h))ev('click_to_call',{link_url:h,link_text:(a.textContent||'').trim().slice(0,100)});
+else if(/^mailto:/i.test(h))ev('click_to_email',{link_url:h});
+else if(/^https?:/i.test(h)&&a.hostname&&a.hostname!==location.hostname)ev('outbound_click',{link_url:h,link_domain:a.hostname});},true);
+d.addEventListener('submit',function(e){var f=e.target;if(!f||f.tagName!=='FORM')return;
+ev('generate_lead',{form_id:f.id||f.getAttribute('name')||'form',form_destination:f.action||location.href});},true);
+var m=[25,50,75,90],hit={};addEventListener('scroll',function(){var h=d.documentElement.scrollHeight-innerHeight;if(h<=0)return;
+var p=scrollY/h*100;for(var i=0;i<m.length;i++)if(p>=m[i]&&!hit[m[i]]){hit[m[i]]=1;ev('scroll_depth',{percent_scrolled:m[i]})}},{passive:true});})();
+  </script>
+  <!-- ga4:end -->
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
